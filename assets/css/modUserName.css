@@ -1,0 +1,57 @@
+.proj .project-name{
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    line-height: 18px;
+    padding-bottom: 20px;
+    font-weight: 500;
+}
+.navbar-menu-divider:before{
+    position: absolute;
+
+    left: 0;
+    right: 0;
+    height: 1px;
+    background-color: rgba(255,255,255,.2);
+    content: "";
+}
+.paddingBottom--quarter{
+    padding-bottom: .3333333333rem!important;
+}
+.navbar-menu-divider{
+    position: relative;
+}
+.header-username{
+    top:8px;
+    width:150px;
+}
+.head-span-first.initials{
+    height:35px;
+    width:35px;
+    border-radius:35px;
+    display:inline-block;
+    text-align:center;
+    padding-top:6px;
+    font-size:16px;
+    font-weight:600;
+}
+.username{
+    margin-left:10px;
+}
+.head-span-first.version-numbers{
+	vertical-align: bottom;
+  height: 35px;
+  width: 85px;
+  border-radius: 35px;
+  display: inline-block;
+  text-align: -webkit-left;
+  padding-top: 18px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #DADADA;
+  font-family: sans-serif;
+}
+.admin .version-numbers {
+	padding-top: 13px!important;
+	padding-left: 3px;
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="2.0.0" client="site" method="upgrade">
+	<name>mod_username</name>
+	<author>Vitalii</author>
+	<version>2.0.0</version>
+	<authorEmail>vetalrocket@gmail.com</authorEmail>
+
+	<files>
+		<filename module="mod_username">mod_username.php</filename>
+		<folder>assets</folder>
+		<folder>tmpl</folder>
+    <filename>index.html</filename>
+	</files>
+
+	<config>
+		<fields name="params">
+			<!-- <fieldset name="settings" label="Settings">
+				<field name="username-font-color" default="#ffffff" type="color" label="User name color"/>
+				<field name="username_font_size" default="16" type="text" label="Font Size" filter="integer"/>
+			</fieldset> -->
+		</fields>
+	</config>
+
+</extension>
